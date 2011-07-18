@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+  <title>Yolandia</title>
+  <link rel="stylesheet" type="text/css" href="/styles.css"> 
+  <link href='http://fonts.googleapis.com/css?family=Damion&v2' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Sue+Ellen+Francisco&v2' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Sunshiney&v2' rel='stylesheet' type='text/css'>
+  <script src="http://inc.the.tl/module.js"></script>
+  <script src="http://inc.the.tl/jquery-1.6.min.js"></script>
+  <script src="http://inc.the.tl/json2.js"></script>
+  <script src="http://inc.the.tl/underscore.js"></script>
+  <script src="http://inc.the.tl/nimble.js"></script>
+  <script src="http://inc.the.tl/drews-mixins.js"></script>
+  <script src="http://severus.drewl.us/severus.js"></script>
+  <script>
+    // for javascripts that done use the define, require pattern
+    define("jquery", function(){return jQuery;});
+    define("underscore", function(){return _;});
+    define("json", function(){return JSON;});
+    define("nimble", function(){return _;});
+  </script>
+  <script src="index.js"></script>
+</head>
+<body>
+  <div align="center" class="yo">
+    <h1>Yo-landia</h1>
+    <p>No quiero ser nada que no sea yo, nada que no sea yo</p>
+    <p>I don't wanna be anything that isn't me, nothing that isn't me</p>
+    <br />
+    <audio id="no-quiero" src="http://filebox.drewl.us/files/0c2b79cdcca1d762637bec4cf95c3f4de06f382d.mp3"></audio>
+    <div id="verses"></div>
+    <form class="add-form">
+      <div><input class="yo" type="text" id="line1" autocomplete="off"/></div>
+      <div><input class="yo" type="text" id="line2" autocomplete="off"/></div>
+      <div><input class="yo" type="submit" id="add" value="Add verse"></div>
+    </form>
+  </div>
+</body>
+</html>
+

@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Damion", cursive;
+  font-size: 2em;
+}
+.yo {
+  font-family: "Sue Ellen Francisco", cursive;
+  font-family: "Sunshiney", arial, cursive;
+}
+.pointer {
+  cursor: pointer;
+}
+input[type=submit] {
+  padding: 5px;
+  font-size: 1.5em;
+}
+input[type=text] {
+  font-size: 1.5em;
+  width: 50%;
+}
+.red {
+  color: #a00;
+}
+.blue {
+  color: #00a;
+}
+.no-quiero {
+  margin-bottom: 30px;
+}
